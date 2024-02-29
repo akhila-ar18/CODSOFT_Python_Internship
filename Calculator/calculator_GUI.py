@@ -2,7 +2,7 @@ import tkinter as tkr
 from tkinter import messagebox
 
 
-class CalculatorApp:
+class Calculator:
     def __init__(self, head):
         self.head = head
         self.head.title("CALCULATOR")
@@ -67,5 +67,5 @@ class CalculatorApp:
 
 if __name__ == "__main__":
     head = tkr.Tk()
-    app = CalculatorApp(head)
+    app = Calculator(head)
     head.mainloop()
