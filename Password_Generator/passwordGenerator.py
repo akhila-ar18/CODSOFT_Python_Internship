@@ -21,6 +21,8 @@ def main():
         print("Generated Password:", password)
 
         choice = input("Do you still wanna continue(1/0)? ")
+        print("\n")
+        
         if(choice != "1"):
             print("Exiting...")
             break
